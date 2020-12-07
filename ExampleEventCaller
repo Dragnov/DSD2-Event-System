@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+/// <summary>
+/// 이벤트 호출 예
+/// </summary>
+public class ExampleEventCaller : MonoBehaviour
+{
+    public void OnClickPauseButton()
+    {
+        csHandler_Event_Sample.Pause.Start();
+    }
+
+    public void OnClickUpButton()
+    {
+        csHandler_Event_Sample.MoveUp.Send();
+
+        Vector2 Position_Current = csHandler_Event_Sample.Position_Current.Get();
+
+        var Block = csHandler_Event_Sample.GetBlock.Return(Position_Current);
+    }    
+}
