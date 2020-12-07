@@ -14,4 +14,4 @@ Don't stop digger2를 작업하면서 이벤트 사용을 용이하게 하려는
 |[csSender](https://github.com/Dragnov/DSD2-Event-System/blob/main/csSender.cs)|반환값이 없는 이벤트 호출|OnSend_|
 |[csReturner](https://github.com/Dragnov/DSD2-Event-System/blob/main/csReturner.cs)|반환값이 있는 이벤트 호출|OnReturn_|
 
-다음은 이벤트 호출을 통해 실제 기능을 수행할 메소드를 선언합니다.
+다음은 이벤트 호출을 통해 실제 기능을 수행할 메소드를 선언합니다. [ExampleEventRegister](https://github.com/Dragnov/DSD2-Event-System/blob/main/ExampleEventRegister.cs)
