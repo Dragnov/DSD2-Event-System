@@ -3,7 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EventRegister : MonoBehaviour
+/// <summary>
+/// 이벤트 필드에 등록할 메소드 선언 예
+/// </summary>
+public class SimpleEventRegister : MonoBehaviour
 {
     private void Start()
     {
